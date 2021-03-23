@@ -16,3 +16,5 @@ docker build -t docking-django -f .Dockerfile .
 ```
 docker run -it -p 80:8888 docking-django
 ```
+
+Django project now runs at ```0.0.0.0``` & ```localhost```
